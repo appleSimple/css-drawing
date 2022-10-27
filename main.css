@@ -248,8 +248,8 @@
 	width: 46%;
     height: 100%;
     border-radius: 92% 79% 86% 78%;
-    border: 0.45vmin solid transparent;
-    border-top: 0.5vmin solid #404040;
+    border: 0.25vmin solid transparent;
+    border-top: 0.25vmin solid #404040;
     transform: rotateZ(-2deg);
     position: absolute;
     top: 26%;
@@ -260,8 +260,8 @@
 	width: 46%;
     height: 100%;
     border-radius: 92% 79% 86% 78%;
-    border: 0.45vmin solid transparent;
-    border-top: 0.5vmin solid #404040;
+    border: 0.25vmin solid transparent;
+    border-top: 0.25vmin solid #404040;
     transform: rotateZ(-2deg) rotateY(180deg);
     position: absolute;
     top: 26%;
