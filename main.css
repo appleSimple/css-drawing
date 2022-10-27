@@ -1,7 +1,6 @@
 .maeng-gu {
-	width: 400px;
+	width: 300px;
 	height: 300px;
-	border-radius: 1px solid black;
 	position: relative;
 }
 
@@ -26,7 +25,7 @@
     border-radius: 61px 52px 53px 60px;
     position: absolute;
     top: 126px;
-    left: 57px;
+    left: 7px;
     transform: rotateZ(10deg);
 }
 
@@ -38,7 +37,7 @@
     border-radius: 61px 52px 53px 60px;
     position: absolute;
     top: 126px;
-    left: 189px;
+    left: 139px;
     transform: rotateZ(-10deg) rotateY(180deg);
 }
 
@@ -182,4 +181,89 @@
     position: absolute;
     top: -2px;
     left: 45px;
+}
+
+.hooni {
+	width: 300px;
+	height: 300px;
+	position: relative;
+}
+
+.hooni .face {
+	width: 70%;
+    height: 57%;
+    background-color: #fdcda7;
+    border-radius: 78% 74% 69% 69% / 72% 72% 77% 77%;
+	border: 2px solid #404040;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-35%);
+}
+
+.hooni .ear-left {
+	width: 15%;
+    height: 23%;
+    background-color: #fdcda7;
+    border-radius: 143% 134% 108% 113%;
+    border: 2px solid;
+    border-right: 2px solid #fdcda7;
+    position: absolute;
+    left: 16%;
+    top: 18%;
+}
+
+.hooni .ear-right {
+	width: 15%;
+    height: 23%;
+    background-color: #fdcda7;
+    border-radius: 163% 129% 150% 120%;
+    border: 2px solid;
+    border-left: 2px solid #fdcda7;
+    position: absolute;
+    left: 89%;
+    top: 18%;
+}
+
+.hooni .eye-left {
+    width: 4%;
+    height: 8%;
+    background-color: #404040;
+    border-radius: 90% 96% 99% 100%;
+    position: absolute;
+    top: 40%;
+    left: 38%;
+}
+
+.hooni .eye-right {
+    width: 4%;
+    height: 8%;
+    background-color: #404040;
+    border-radius: 90% 96% 99% 100%;
+    position: absolute;
+    top: 40%;
+    left: 55%;
+}
+
+.hooni .eye-brow-left {
+	width: 46%;
+    height: 100%;
+    border-radius: 92% 79% 86% 78%;
+    border: 0.45vmin solid transparent;
+    border-top: 0.5vmin solid #404040;
+    transform: rotateZ(-2deg);
+    position: absolute;
+    top: 26%;
+    left: 3%;
+}
+
+.hooni .eye-brow-right {
+	width: 46%;
+    height: 100%;
+    border-radius: 92% 79% 86% 78%;
+    border: 0.45vmin solid transparent;
+    border-top: 0.5vmin solid #404040;
+    transform: rotateZ(-2deg) rotateY(180deg);
+    position: absolute;
+    top: 26%;
+    left: 47%;
 }
